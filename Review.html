@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+body {
+  background-image: url(circle.jpeg);
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: 50% 50%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 2px solid #83349e;
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    form {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .custom-background {
+      
+      border: 1px solid #ccc;
+      padding: 10px; 
+      color: black;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 8px; 
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #83349e;
+      color: #0a0909;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+
+  </style>
+  <title>Feedback Form</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <div>
+        <h1>What did you like about our website?</h1>
+        <em>Tell us what your favorite things were. If you win, we will use your review to recommend you some of the best spots in Albania.</em>
+        <p><label for="contest_entry">Write your response below!</label></p>
+        <textarea name="contest_entry" rows="10" class="custom-background"></textarea>
+        <input type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
